@@ -53,3 +53,6 @@ OUT|指定使用某个网卡设备进行联网通信（默认被注释掉）。�
 No Record|不存在该域名或者该主机记录（本脚本**不会**自动创建子域名，请务必先到后台添加一个随意的子域名A记录）
 API usage is limited|调用API频率过高账号被冻结（一小时后解封），正常使用一般不会出现
 [URL IP]或者[DEV IP] 和[DNS IP]不一样但和[API IP]一样|DNS有缓存，DNS记录是已经更新，属正常现象，会提示IP SAME IN API,SKIP UPDATE.自动忽略
+
+### **关于**
+本bashshell修改自https://github.com/lixuy/dnspod-ddns-with-bashshell
